@@ -1200,7 +1200,6 @@
     .nav-dots { display: none; }
   }
 
-  /* ANIMATIONS FOR VISIBLE STATE */
   .reveal {
     opacity: 0;
     transform: translateY(30px);
@@ -1208,7 +1207,6 @@
   }
   .reveal.visible { opacity: 1; transform: none; }
 
-  /* COUNTER ANIMATION */
   @keyframes countUp {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -1263,7 +1261,7 @@
     <p class="hero-sub">ShopMJ.com is the deal aggregation marketplace cannabis has been waiting for — 10× cheaper than Weedmaps, and solving a problem they fundamentally can't.</p>
     <div class="hero-stats">
       <div class="stat">
-        <span class="stat-num" data-target="10" data-suffix="×">10×</span>
+        <span class="stat-num">10×</span>
         <span class="stat-label">Cheaper than Weedmaps</span>
       </div>
       <div class="stat-divider"></div>
@@ -1273,8 +1271,8 @@
       </div>
       <div class="stat-divider"></div>
       <div class="stat">
-        <span class="stat-num">$3.6M</span>
-        <span class="stat-label">ARR at 1,000 Dispensaries</span>
+        <span class="stat-num">$17.9M</span>
+        <span class="stat-label">ARR at 5,000 Dispensaries</span>
       </div>
     </div>
     <a href="#problem" class="hero-cta">
@@ -1540,23 +1538,65 @@
         <div class="rev-val-label">Implied Valuation</div>
       </div>
       <div class="rev-card highlight">
-        <div class="rev-dispensaries">1,000</div>
+        <div class="rev-dispensaries">5,000</div>
         <div class="rev-label">Dispensaries</div>
-        <div class="rev-mrr">$299K MRR</div>
-        <div class="rev-arr">$3.6M ARR</div>
-        <div class="rev-val">$18M–36M</div>
+        <div class="rev-mrr">$1.495M MRR</div>
+        <div class="rev-arr">$17.9M ARR</div>
+        <div class="rev-val">$89.5M–179M</div>
         <div class="rev-val-label">Implied Valuation</div>
       </div>
       <div class="rev-card">
-        <div class="rev-dispensaries">2,500</div>
+        <div class="rev-dispensaries">10,000</div>
         <div class="rev-label">Dispensaries</div>
-        <div class="rev-mrr">$747.5K MRR</div>
-        <div class="rev-arr">$9M ARR</div>
-        <div class="rev-val">$45M–90M</div>
+        <div class="rev-mrr">$2.99M MRR</div>
+        <div class="rev-arr">$35.9M ARR</div>
+        <div class="rev-val">$179M–358M</div>
         <div class="rev-val-label">Implied Valuation</div>
       </div>
     </div>
-    <p style="text-align:center;color:var(--gray);font-size:0.78rem;margin-top:1.5rem;font-style:italic;" class="reveal">Marketplace SaaS multiples: 5–10× ARR · 10,000+ dispensaries operate in legal US markets today</p>
+    <p style="text-align:center;color:var(--gray);font-size:0.78rem;margin-top:1.5rem;font-style:italic;" class="reveal">Marketplace SaaS multiples: 5–10× ARR · 18,000+ licensed cannabis dispensaries operate in North America today</p>
+
+    <!-- MARKET CONTEXT QUOTE -->
+    <div style="margin-top:4rem;position:relative;" class="reveal">
+      <div style="position:absolute;top:-1.5rem;left:2rem;font-family:'Playfair Display',serif;font-size:8rem;line-height:1;color:rgba(76,175,80,0.08);pointer-events:none;">"</div>
+      <div style="background:rgba(15,34,21,0.9);border:1.5px solid rgba(76,175,80,0.2);padding:3.5rem 3.5rem 3rem;position:relative;z-index:1;">
+        <p style="font-family:'Playfair Display',serif;font-size:clamp(1.1rem,2.2vw,1.5rem);font-weight:400;line-height:1.65;color:var(--white);">
+          North America has roughly <span style="color:var(--gold);font-weight:700;">18,000 licensed cannabis dispensaries.</span>
+          Weedmaps — the dominant discovery and advertising platform — monetizes only about
+          <span style="color:var(--red-light);font-weight:700;">5,000 retailers, or roughly 27% of the market.</span>
+          The majority of dispensaries still lack an effective, measurable e-commerce sales platform.
+          ShopMJ addresses this underserved majority with a commerce-first model priced at approximately
+          <span style="color:var(--accent);font-weight:700;">$299 per month</span> — dramatically lower than the
+          <span style="color:var(--red-light);font-weight:700;">$3,000–$5,000 per month</span> commonly spent on Weedmaps advertising.
+          Unlike Weedmaps, which primarily delivers visibility, ShopMJ directly drives and tracks completed transactions,
+          allowing dispensaries to measure true sales ROI. Because of this lower cost and revenue-linked value proposition,
+          the addressable share of dispensaries willing to adopt ShopMJ is expected to be
+          <span style="color:var(--accent);font-weight:700;">substantially larger than the ~27% currently paying for Weedmaps.</span>
+        </p>
+        <div style="display:flex;gap:3rem;margin-top:2.5rem;padding-top:2rem;border-top:1px solid rgba(76,175,80,0.15);flex-wrap:wrap;">
+          <div style="text-align:center;flex:1;min-width:120px;">
+            <div style="font-family:'Playfair Display',serif;font-size:2.8rem;font-weight:900;color:var(--red-light);line-height:1;">27%</div>
+            <div style="font-size:0.72rem;color:var(--gray);text-transform:uppercase;letter-spacing:0.1em;margin-top:0.3rem;">Weedmaps' current<br>market penetration</div>
+          </div>
+          <div style="width:1px;background:rgba(255,255,255,0.08);align-self:stretch;"></div>
+          <div style="text-align:center;flex:1;min-width:120px;">
+            <div style="font-family:'Playfair Display',serif;font-size:2.8rem;font-weight:900;color:var(--gold);line-height:1;">13,000+</div>
+            <div style="font-size:0.72rem;color:var(--gray);text-transform:uppercase;letter-spacing:0.1em;margin-top:0.3rem;">Dispensaries with<br>no effective platform</div>
+          </div>
+          <div style="width:1px;background:rgba(255,255,255,0.08);align-self:stretch;"></div>
+          <div style="text-align:center;flex:1;min-width:120px;">
+            <div style="font-family:'Playfair Display',serif;font-size:2.8rem;font-weight:900;color:var(--accent);line-height:1;">$299</div>
+            <div style="font-size:0.72rem;color:var(--gray);text-transform:uppercase;letter-spacing:0.1em;margin-top:0.3rem;">ShopMJ's commerce-first<br>monthly price</div>
+          </div>
+          <div style="width:1px;background:rgba(255,255,255,0.08);align-self:stretch;"></div>
+          <div style="text-align:center;flex:1;min-width:120px;">
+            <div style="font-family:'Playfair Display',serif;font-size:2.8rem;font-weight:900;color:var(--accent);line-height:1;">10×+</div>
+            <div style="font-size:0.72rem;color:var(--gray);text-transform:uppercase;letter-spacing:0.1em;margin-top:0.3rem;">Larger addressable<br>market than Weedmaps</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -1564,7 +1604,7 @@
 <section class="budget-section" id="budget">
   <div class="section-inner">
     <div class="section-label">Pre-Seed Investment · Post-Money SAFE</div>
-    <h2 class="section-title">$1M Raise. <em class="gold">6-Month Sprint.</em></h2>
+    <h2 class="section-title">$1M Raise. <em class="gold">6–12 Month Sprint.</em></h2>
 
     <!-- RAISE STRUCTURE CARDS -->
     <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1.5px;background:rgba(76,175,80,0.08);border:1.5px solid rgba(76,175,80,0.08);margin-top:2.5rem;" class="reveal">
@@ -1584,7 +1624,7 @@
       </div>
       <div style="background:var(--forest);padding:1.8rem 1.5rem;text-align:center;">
         <div style="font-size:0.65rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:var(--gray);margin-bottom:0.6rem;">Runway</div>
-        <div style="font-family:'Playfair Display',serif;font-size:2.2rem;font-weight:900;color:var(--accent);line-height:1;">6 Mo</div>
+        <div style="font-family:'Playfair Display',serif;font-size:2.2rem;font-weight:900;color:var(--accent);line-height:1;">6–12 Mo</div>
         <div style="font-size:0.75rem;color:var(--gray);margin-top:0.4rem;">~20% investor ownership</div>
       </div>
     </div>
@@ -1595,8 +1635,8 @@
       <div class="budget-items">
         <div class="budget-item">
           <div>
-            <div class="budget-cat">Team &amp; Financial Management</div>
-            <div class="budget-detail">Founder salary, early team members (4-year vesting / 1-year cliff), financial operations &amp; admin</div>
+            <div class="budget-cat">General &amp; Administrative</div>
+            <div class="budget-detail">Founder salary, early team compensation, financial operations &amp; admin</div>
           </div>
           <div class="budget-bar-container">
             <div class="budget-bar" style="--fill-width: 49%"></div>
@@ -1656,7 +1696,7 @@
       </div>
       <div>
         <div class="bt-label">Runway</div>
-        <div class="bt-value">6 Months</div>
+        <div class="bt-value">6–12 Months</div>
       </div>
       <div>
         <div class="bt-label">Valuation Cap</div>
@@ -1668,9 +1708,9 @@
       </div>
     </div>
 
-    <!-- 6-MONTH MILESTONES -->
+    <!-- 6–12 MONTH MILESTONES -->
     <div style="margin-top:3rem;">
-      <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:var(--accent);margin-bottom:1.5rem;">6-Month Milestones</div>
+      <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:var(--accent);margin-bottom:1.5rem;">6–12 Month Milestones</div>
       <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:1.5px;background:rgba(76,175,80,0.08);" class="reveal">
         <div style="background:var(--forest);padding:1.5rem 1.2rem;text-align:center;">
           <div style="font-size:1.5rem;margin-bottom:0.7rem;">🏗</div>
@@ -1768,7 +1808,7 @@
           </div>
           <div class="acq-outcome">
             <div class="acq-outcome-label">🚀 Outcome 2: Standalone Empire</div>
-            <p>At scale, ShopMJ becomes the dominant cannabis commerce layer — $9M+ ARR, marketplace expansion, worth far more than any early buyout. Timeline: 5–10 years.</p>
+            <p>At scale, ShopMJ becomes the dominant cannabis commerce layer — $17.9M+ ARR at 5,000 dispensaries, marketplace expansion, worth far more than any early buyout. Timeline: 5–10 years.</p>
           </div>
         </div>
       </div>
@@ -1795,8 +1835,8 @@
       <div class="outcome-card">
         <div class="outcome-type">Exit Strategy B</div>
         <div class="outcome-title">Standalone<br>Empire</div>
-        <div class="outcome-body">At scale, ShopMJ becomes the dominant cannabis commerce layer. $9M+ ARR, marketplace expansion, brand integrations, and a category-defining platform worth far more over 5–10 years than any early buyout.</div>
-        <div class="outcome-timeline">→ Timeline: 5–10 years · $45M–$90M+ implied value</div>
+        <div class="outcome-body">At scale, ShopMJ becomes the dominant cannabis commerce layer. $17.9M+ ARR at 5,000 dispensaries, marketplace expansion, brand integrations, and a category-defining platform worth far more over 5–10 years than any early buyout.</div>
+        <div class="outcome-timeline">→ Timeline: 5–10 years · $89.5M–$179M+ implied value at 5,000 dispensaries</div>
       </div>
     </div>
     <p class="closing-footer reveal"><em>"Time will tell. Both are great outcomes for early investors who move now."</em></p>
@@ -1857,7 +1897,6 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('visible');
-      // Trigger budget bars
       if (entry.target.classList.contains('budget-item') || entry.target.closest('.budget-item')) {
         const bars = document.querySelectorAll('.budget-bar');
         bars.forEach(b => b.classList.add('filled'));
